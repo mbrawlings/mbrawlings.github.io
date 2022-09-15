@@ -1,0 +1,158 @@
+header {
+    background-color: red;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.section {
+    height: 980px;
+    /* width: 1920px; */
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://live.staticflickr.com/65535/52353535388_506fc83012_k.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}
+
+#name-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: rgba(255,255,255, .6);
+    box-shadow: 10px 10px 5px ;
+}
+
+#name {
+    font-size: 50px;
+}
+
+#title {
+    font-size: 30px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 50px;
+
+}
+
+#bio-pics {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+
+}
+
+.image-container {
+    height: 250px;
+    width: 250px;
+}
+
+.bio-images {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#skills {
+    height: 550px;
+    /* display: flex;
+    flex-direction: column; */
+    /* background-color: blue; */
+}
+
+#all-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+}
+
+.icon-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#projects {
+    background-color: blueviolet;
+}
+
+#contact {
+    background-color: coral;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.bottom-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 6px;
+
+}
+
+.bottom-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.bottom-p {
+    margin-top: 0px;
+
+}
