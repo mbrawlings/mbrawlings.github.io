@@ -191,10 +191,12 @@ body {
     border: 1px solid black;
     border-radius: 15px;
     margin: 5px;
+    text-decoration: none;
 }
 
 .repo-text {
     margin: 5px;
+    color: black;
 }
 
 footer {
@@ -212,7 +214,7 @@ footer {
     height: 50px;
     width: 50px;
     margin-top: 6px;
-
+    text-decoration: none;
 }
 
 .bottom-image {
@@ -223,5 +225,5 @@ footer {
 
 .bottom-p {
     margin-top: 0px;
-
+    color: black;
 }
